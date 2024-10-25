@@ -42,6 +42,7 @@
     "cz-customizable": "^7.2.1",
     "happy-dom": "15.7.4",
     "husky": "latest",
+    "terser": "5.34.1",
     "unocss": "^0.63.4",
     "vite": "^5.4.9",
     "vitepress": "^1.4.1",
