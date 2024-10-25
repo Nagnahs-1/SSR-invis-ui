@@ -1,5 +1,12 @@
-import { presetAttributify, presetIcons, presetUno } from 'unocss'
-import Unocss from 'unocss/vite'
+import {
+  defineConfig,
+  presetAttributify,
+  presetIcons,
+  presetUno,
+  transformerAttributifyJsx,
+  transformerDirectives,
+  transformerVariantGroup,
+} from 'unocss'
 
 const colors = [
   'white',
@@ -35,15 +42,19 @@ const safelist = [
     'edit',
     'check',
     'message',
-    'star-off',
+    'star',
     'delete',
     'add',
     'share',
   ].map(v => `i-ic-baseline-${v}`),
 ]
 
-export default () =>
-  Unocss({
-    safelist,
-    presets: [presetUno(), presetAttributify(), presetIcons()],
-  })
+export default defineConfig({
+  safelist,
+  presets: [presetAttributify({}), presetUno(), presetIcons({ warn: true })],
+  transformers: [
+    transformerDirectives(),
+    transformerAttributifyJsx(),
+    transformerVariantGroup(),
+  ],
+})

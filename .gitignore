@@ -1,2 +1,7 @@
 node_modules
+dist
+pnpm-lock.yaml
+cache/
+coverage
+.DS_Store
 node_modules/.pnpm/@algolia+autocomplete-plugin-algolia-insights@1.9.3_@algolia+client-search@4.24.0_algoliasear_qrtvhf4z2okermyzyq5wa6qzl4/node_modules/@algolia/autocomplete-plugin-algolia-insights/dist/esm/createAlgoliaInsightsPlugin.d.ts

@@ -1,14 +1,15 @@
-//import { createApp } from "vue";
-//import SButton from "./button";
-//import SButton from "./SFCButton.vue";
-//import TSXButton from "./TSXButton";
-//createApp(SButton).mount("#app");
-//createApp(TSXButton).mount("#app");
+// import { createApp } from "vue";
+// import SButton from "./button";
+// import SButton from "./SFCButton.vue";
+// import TSXButton from "./TSXButton";
+// createApp(SButton).mount("#app");
+// createApp(TSXButton).mount("#app");
 
-import { createApp } from "vue";
-import SSYUI from "./entry";
+import { createApp } from 'vue'
+import SSYUI from './entry'
+
 createApp({
-    template: `
+  template: `
       <div style="margin-bottom:20px;">
         <SButton color="blue">普通按钮</SButton>
         <SButton color="green">绿色按钮</SButton>
@@ -43,11 +44,9 @@ createApp({
         <SButton color="yellow" round plain icon="message"></SButton>
       </div>
     `,
-  })
+})
   .use(SSYUI)
-  .mount("#app");
-
-
+  .mount('#app')
 
 // const s: string = "hello TypeScript";
 // console.log(s);
