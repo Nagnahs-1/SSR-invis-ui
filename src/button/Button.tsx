@@ -106,7 +106,7 @@ export const buttonProps = {
 export type ButtonProps = ExtractPropTypes<typeof buttonProps>
 
 export default defineComponent({
-  name: 'SButton',
+  name: 'Button',
   props: buttonProps,
   setup(props, { slots }) {
     const size = {
