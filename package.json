@@ -1,12 +1,13 @@
 {
-  "name": "ssy-ui-vite",
+  "name": "@xuanrushi/ssy-ui-vite",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "author": "",
+  "author": "xuanrushi",
   "license": "ISC",
   "keywords": [],
   "main": "index.js",
+  "files": ["dist"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,7 +19,9 @@
     "lint:fix": "eslint . --fix",
     "precommit": "pnpm lint && pnpm test",
     "prepare": "husky"
+
   },
+
   "dependencies": {
     "@antfu/eslint-config": "^3.8.0",
     "@unocss/eslint-plugin": "^0.62.4",
@@ -56,5 +59,9 @@
     "cz-customizable": {
       "config": ".cz-config.cjs"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
