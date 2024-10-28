@@ -7,6 +7,7 @@
 
 import { createApp } from 'vue'
 import SSYUI from './entry'
+import 'unocss'
 
 createApp({
   template: `
