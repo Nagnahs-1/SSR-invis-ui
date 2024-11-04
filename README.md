@@ -1,4 +1,3 @@
-
 <p align="center">
     <br>
     <img src="./assets/GitHub-Logo.png" width="100%"/>
