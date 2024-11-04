@@ -52,3 +52,6 @@ createApp(App)
 
 ## Quick Start2
 如果希望尽快上手，可以访问 [Getting Starting](https//ssy-ui-vite.vercel.app/)
+
+## 欢迎提PR
+一起加入项目
