@@ -13,6 +13,11 @@
 <img src="https://img.shields.io/github/license/XUANRUSHI/SSR-invis-ui">
 <img alt="NPM Version" src="https://img.shields.io/npm/v/%40xuanrushi%2Fssy-ui-vite?logoColor=pink&labelColor=skyblue&color=pink">
 <img alt="NPM Downloads" src="https://img.shields.io/npm/dw/%40xuanrushi%2Fssy-ui-vite?style=flat-square&labelColor=%20">
+
+<a href="https://codecov.io/gh/XUANRUSHI/SSR-invis-ui" >
+ <img src="https://codecov.io/gh/XUANRUSHI/SSR-invis-ui/graph/badge.svg?token=9INKIVFSFS"/>
+ </a>
+
 </p>
 
 ## Features
